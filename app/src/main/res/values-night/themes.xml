@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Recipes" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/greenDark</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/greenWhite</item>
+        <item name="android:statusBarColor">@color/grayLightDark</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+</resources>

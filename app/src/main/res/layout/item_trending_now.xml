@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/back_view"
+    android:elevation="2dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_food"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="4dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:letterSpacing="0.04"
+        android:maxLines="1"
+        android:textColor="@color/greenDark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_food_kal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:drawableStart="@drawable/ic_fire"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        tool:text="Name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_preparation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:drawableStart="@drawable/ic_timer"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+</LinearLayout>

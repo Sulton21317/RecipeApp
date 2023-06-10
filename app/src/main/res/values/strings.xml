@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="intro_text">Become a pro chef in your house</string>
+    <string name="intro_desc">Join the biggest cooking community on the global. Learn to cook or share your recipes with the world</string>
+    <string name="create_account">Create an account </string>
+    <string name="create_your_free_account">Create your free account</string>
+    <string name="create_account_desc">and become a real chef in your house </string>
+    <string name="condition_and_terms">I agree to the Terms of Service</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sing Up</string>
+
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="login_account">Login into your account</string>
+    <string name="welcome_back">Welcome to back</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bring_your_own_tools">Bring your own tools !</string>
+    <string name="joined">452 people joined us today</string>
+    <string name="see_back">Good to see you back</string>
+
+
+    <string name="discover_recipes">Discover recipes</string>
+    <string name="search">Search</string>
+    <string name="saved">Saved</string>
+    <string name="add_recipe">Add recipe</string>
+    <string name="chefs">Chefs</string>
+    <string name="home">Home</string>
+
+    <string name="bottom_sheet_option_breakfast">Breakfast</string>
+    <string name="bottom_sheet_option_lunch">Lunch</string>
+    <string name="bottom_sheet_option_dinner">Dinner</string>
+    <string name="bottom_sheet_option_desert">Dessert</string>
+
+
+</resources>
